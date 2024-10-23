@@ -1,19 +1,11 @@
-import AppRouter from "./router";
-import styled from "styled-components";
-
-const Header = styled.header`
-  text-align: center;
-  margin-bottom: 20px;
-`;
+import React from "react";
+import Inventory from "./components/Inventory";
 
 function App() {
-
   return (
     <>
-      <Header>
-      <h1>Welcome to Dessert</h1>
-      </Header>
-      <AppRouter />
+      <h1>welcome to Dessert Inventory Management</h1>
+      <Inventory />
     </>
   )
 }
